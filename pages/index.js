@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Form from '@/components/Form'
 import Image from 'next/image'
-import Button from '@/components/Button'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -29,7 +28,7 @@ export default function Home() {
         <br />
         <br />
 
-        <img className={styles.getTheAppButton} src={'/images/get_the_app.png'} alt="link for download" width="320px" height="70px" priority />
+        <Image src={'/images/Get_the_app.png'} alt="link for downloading app" width="320" height="70" priority />
       </main>
    <Footer/>
     </>
