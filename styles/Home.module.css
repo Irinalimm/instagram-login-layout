@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 20vh;
+  font-family: var(--regular-font);
+  font-size: 11pt;
+  
+}
+
+
+
+/* Mobile */
+@media (max-width: 414px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem 3rem 1rem;
+    min-height:10vh;
+    font-family: var(--regular-font);
+    font-size: 11pt;
+    width: 100vw;
+  }
+
+
+.getTheAppButton {
+  width:280px;
+  height: 60px;
+
+}
+
+    }
+
+   
+
+
+
+/* Tablet and Smaller Desktop */

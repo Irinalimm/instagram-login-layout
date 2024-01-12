@@ -1,0 +1,10 @@
+.loginButton {
+    width: 100%;
+    padding: 10px 100px;
+    margin: 10px 0;
+    border: 0px;
+    background-color: var(--button-color);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: bold;
+}

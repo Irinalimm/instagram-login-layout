@@ -1,0 +1,143 @@
+.formOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.fieldSet {
+
+    flex-direction: column;
+
+    padding: 30px;
+    border: 1px solid var(--light-gray);
+    width: 300px;
+    height: 380px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.firstNameInput {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    border: 1px solid var(--light-gray);
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 3px;
+    background-color: var(--lighter-gray);
+}
+
+.firstNameInput:focus {
+    outline: none;
+
+}
+
+.emailInput {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    border: 1px solid var(--light-gray);
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: var(--lighter-gray);
+}
+
+.anchor {
+    color: var(--button-color);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+
+.forgotPassword {
+    color: var(--blue);
+    align-items: center;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+.bottomBox {
+    border: none;
+    padding: 30px;
+    border: 1px solid var(--light-gray);
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hrOne {
+    float: left;
+    padding-right: 3px;
+    width: 44%;
+}
+
+.hrTwo {
+    float: right;
+    width: 44%;
+}
+
+.facebookLogo {
+
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.facebookLogIn {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.or {
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--darker-gray);
+}
+
+/* Mobile */
+@media (max-width: 414px) {
+
+
+    .formOuterContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+   
+
+    }
+
+    .bottomBox {
+        border: none;
+        padding: 30px;
+        width: 300px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .fieldSet {
+
+        flex-direction: column;
+        border: none;
+        width: 300px;
+        height: 380px;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+}

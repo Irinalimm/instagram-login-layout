@@ -1,0 +1,19 @@
+:root {
+
+  --blue: rgb(60, 99, 147);
+  --lighter-gray: rgba(245, 245, 245, 0.824);
+  --light-gray: rgb(205, 205, 205);
+  --button-color: rgb(54, 162, 251);
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --darker-gray: rgb(153, 153, 153);
+
+
+
+  --regular-font: Arial !important;
+
+}
+
+body {
+  width: 100%;
+}
